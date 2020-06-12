@@ -10,4 +10,4 @@ app.get("/about", (req, res)=>{
 app.get("*", (req, res)=>{
   res.send("<h1>This page is like your girlfriend, It doesn't exist</h1>");
 });
-app.listen(3000 || process.env.PORT, process.env.IP);
+app.listen(80);
